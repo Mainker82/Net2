@@ -20,3 +20,5 @@ EXPOSE 80
 
 # Команда запуска Apache
 CMD ["apache2-foreground"]
+
+Fix Dockerfile: single MPM + mysqli
